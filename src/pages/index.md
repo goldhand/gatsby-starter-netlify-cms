@@ -6,13 +6,13 @@ heading: " "
 subheading: Providing Simple Answers to Your Medicare Questions
 mainpitch:
   title: We help you choose the plan that best fits your needs
-  description: "   "
-description: At Arizona Medicare Helpers we understand that the complex nature
-  of Medicare Insurance can feel confusing and even overwhelming at times. Often
-  searching for answers to simple Medicare questions can create more frustration
-  than it seems to be worth. That is why we have a dedicated team of
-  professionals committed to helping you understand and feel confident in your
-  Medicare decisions.
+  description: At Arizona Medicare Helpers we understand that the complex nature
+    of Medicare Insurance can feel confusing and even overwhelming at times.
+    Often searching for answers to simple Medicare questions can create more
+    frustration than it seems to be worth. That is why we have a dedicated team
+    of professionals committed to helping you understand and feel confident in
+    your Medicare decisions.
+description: "   "
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -43,11 +43,7 @@ intro:
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
   heading: We help you choose the plan that best fits your needs
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: "   "
 main:
   heading: Great coffee with no compromises
   description: >
