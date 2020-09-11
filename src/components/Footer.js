@@ -15,11 +15,12 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="AZ Medicare Helpers"
+            style={{maxWidth: '100%', padding: '1rem'}}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
+            <div style={{ maxWidth: '100vw', paddingTop: '2rem' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
