@@ -49,8 +49,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            lineHeight: '1.25em',
+            padding: '0.25em 1rem',
           }}
         >
           {title}
@@ -59,13 +59,13 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            lineHeight: '1.25em',
+            padding: '0.25em 1rem',
           }}
         >
           {subheading}
         </h3>
-        <p style={{maxWidth: '50vw', color: 'white', lineHeight: '1.5em', padding: '1rem 0.25rem'}}>{mainpitch.description}</p>
+        <p style={{maxWidth: '800px', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{mainpitch.description}</p>
       </div>
 </div>
     </div>
