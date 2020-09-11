@@ -27,6 +27,14 @@ export const IndexPageTemplate = ({
         height: '600px',
       }}
     >
+<div style={{
+    display: 'flex',
+    justify-content: 'center',
+    align-items: 'center',
+    height: '100%',
+    width: '100%',
+    background: 'rgba(0,0,0,0.3)',
+}}>
       <div
         style={{
           display: 'flex',
@@ -57,7 +65,9 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <p style={{maxWidth: '50vw', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{mainpitch.description}</p>
       </div>
+</div>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -67,10 +77,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h1 className="title" style={{textAlign: 'center'}}>{mainpitch.title}</h1>
                   </div>
                 </div>
                 <div className="columns">
