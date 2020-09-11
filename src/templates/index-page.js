@@ -17,13 +17,12 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0 parallax"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundSize: 'cover',
         height: '600px',
       }}
     >
@@ -43,6 +42,7 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'center',
           flexDirection: 'column',
+          textAlign: 'center',
         }}
       >
         <h1
@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <p style={{maxWidth: '50vw', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{mainpitch.description}</p>
+        <p style={{maxWidth: '50vw', color: 'white', lineHeight: '1.5em', padding: '1rem 0.25rem'}}>{mainpitch.description}</p>
       </div>
 </div>
     </div>
