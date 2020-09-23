@@ -6,6 +6,7 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
+import { NavbarLinks } from './NavbarLinks'
 
 const Footer = class extends React.Component {
   render() {
@@ -48,16 +49,21 @@ const Footer = class extends React.Component {
           </div>
         </section>
         <footer className="footer">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content has-text-white-ter">
-                <p className="copyright">
-                  Copyright © 2014 <a href="/">AZ Medicare Helpers</a>. All
-                  rights reserved.
-                </p>
+          <nav class="navbar is-transparent" role="navigation">
+            <div class="navbar-menu">
+              <div className="navbar-start">
+                <div className="navbar-item has-text-white-ter">
+                  <p className="copyright">
+                    Copyright © 2014 <a href="/">AZ Medicare Helpers</a>. All
+                    rights reserved.
+                  </p>
+                </div>
+              </div>
+              <div className="navbar-end is-right">
+                <NavbarLinks />
               </div>
             </div>
-          </div>
+          </nav>
         </footer>
       </React.Fragment>
     )
