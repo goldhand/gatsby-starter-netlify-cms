@@ -1,18 +1,14 @@
 ---
 templateKey: index-page
 title: AZ MEDICARE HELPERS
+subtitle: Providing Simple Answers to Your Medicare Questions
 image: /img/sonoran-sunset.jpg
-heading: "Medicare Answers from Medicare Professionals"
-subheading: Providing Simple Answers to Your Medicare Questions
+heading: "We help you choose the plan that best fits your needs"
+subheading: "Medicare Answers from Medicare Professionals"
+description: "At Arizona Medicare Helpers we understand that the complex nature of Medicare Insurance can feel confusing and even overwhelming at times. Often searching for answers to simple Medicare questions can create more frustration than it seems to be worth. That is why we have a dedicated team of professionals committed to helping you understand and feel confident in your Medicare decisions."
 mainpitch:
-  title: We help you choose the plan that best fits your needs
-  description: At Arizona Medicare Helpers we understand that the complex nature
-    of Medicare Insurance can feel confusing and even overwhelming at times.
-    Often searching for answers to simple Medicare questions can create more
-    frustration than it seems to be worth. That is why we have a dedicated team
-    of professionals committed to helping you understand and feel confident in
-    your Medicare decisions.
-description: "   "
+  title: ""
+  description: ""
 intro:
   blurbs:
     - image: /img/coffee.png

@@ -11,6 +11,7 @@ import { ParallaxHero } from '../components/ParallaxHero'
 export const IndexPageTemplate = ({
   image,
   title,
+  subtitle,
   heading,
   subheading,
   mainpitch,
@@ -20,7 +21,7 @@ export const IndexPageTemplate = ({
   <div>
     <ParallaxHero
       heading={title}
-      subheading={subheading}
+      subheading={subtitle}
       image={image}
       description={description}
     />
@@ -29,7 +30,7 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="content">
             <div className="section-head">
-              <h1 className="title">{mainpitch.title}</h1>
+              <h1 className="title">{heading}</h1>
               <hr />
             </div>
           </div>
@@ -49,11 +50,10 @@ export const IndexPageTemplate = ({
         <div className="column is-12">
           <div className="section-head">
             <h3 className="title has-text-weight-semibold is-size-2">
-              {heading}
+              {subheading}
             </h3>
             <hr />
           </div>
-          <p>{description}</p>
         </div>
       </div>
       <div className="column is-10 is-offset-1">
@@ -68,6 +68,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
@@ -85,6 +86,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        subtitle={frontmatter.subtitle}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
@@ -110,6 +112,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        subtitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
