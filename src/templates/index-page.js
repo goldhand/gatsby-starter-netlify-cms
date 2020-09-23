@@ -63,32 +63,6 @@ export const IndexPageTemplate = ({
           </div>
         </div>
     </div>
-    <section className="section has-background-black has-text-white-ter has-text-centered">
-      <div className="container">
-        <div className="section">
-                <div className="content">
-                  <div className="section-head">
-                    <h1 className="title has-text-white-ter">{mainpitch.title}</h1>
-                    <hr />
-                  </div>
-                  <div className="columns">
-                    <div className="column">
-                  <a className="contact-info has-text-primary" href="tel:5202227997">
-                    <span className="icon"><i className="fas fa-mobile"></i></span>
-                    (520) 222-7997
-                  </a>
-                  </div>
-                    <div className="column">
-                  <a className="contact-info has-text-primary" href="https://web.archive.org/web/20200220012047/mailto:info@azmedicarehelpers.com">
-                    <span className="icon"><i className="fas fa-envelope-o"></i></span>
-                    info@azmedicarehelpers.com
-                  </a>
-                  </div>
-                  </div>
-                </div>
-          </div>
-      </div>
-    </section>
   </div>
 )
 
