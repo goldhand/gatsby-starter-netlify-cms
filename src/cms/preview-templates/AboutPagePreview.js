@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { AboutPageTemplate } from '../../templates/about-page'
 
-const AboutPagePreview = ({ entry, widgetFor }) => {
+const AboutPagePreview = ({ entry, widgetFor, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   const entryTeam = entry.getIn(['data', 'team'])
-  const team = entryTestimonials ? entryTeam.toJS() : []
+  const team = entryTeam ? entryTeam.toJS() : []
 
   return (
     <AboutPageTemplate
