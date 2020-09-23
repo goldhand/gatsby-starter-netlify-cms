@@ -53,6 +53,8 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
+          # - {label: Team, name: team, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}]}
+          - {label: Team, name: team, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}, {label: jobs, name: jobs, widget: list, fields: [{label: "Job Title", name: title, widget: string}]}]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
