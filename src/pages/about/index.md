@@ -1,9 +1,9 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: Get to Know Us Better
-subtitle: ''
-description: ''
+subtitle: " "
+description: " "
 image: /img/sonoran-sunset.jpg
 team:
   - name: Trevor A. Cameron
@@ -12,7 +12,7 @@ team:
       - title: Broker/Owner
       - title: Investment Advisor Representative
   - name: Fernando J. Diaz
-    image: /img/coffee.png
+    image: /img/will-book-signing-300x300.png
     jobs:
       - title: Broker/Owner
   - name: Morgan Culver
