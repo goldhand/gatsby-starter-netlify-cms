@@ -2,7 +2,7 @@
 templateKey: index-page
 title: AZ MEDICARE HELPERS
 image: /img/sonoran-sunset.jpg
-heading: " "
+heading: "Medicare Answers from Medicare Professionals"
 subheading: Providing Simple Answers to Your Medicare Questions
 mainpitch:
   title: We help you choose the plan that best fits your needs
