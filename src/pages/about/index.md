@@ -5,6 +5,21 @@ title: Get to Know Us Better
 subtitle: ''
 description: ''
 image: /img/sonoran-sunset.jpg
+team:
+  - name: Trevor A. Cameron
+    image: /img/coffee.png
+    jobs:
+      - title: Broker/Owner
+      - title: Investment Advisor Representative
+  - name: Fernando J. Diaz
+    image: /img/coffee.png
+    jobs:
+      - title: Broker/Owner
+  - name: Morgan Culver
+    image: /img/coffee.png
+    jobs:
+      - title: Owner
+      - title: Accountant
 ---
 ### Who We Are
 Arizona Medicare Helpers is a group of professionals dedicated to helping people understand their Medicare options to make better Medicare choices. Unlike many agents who sell Auto, Home, Life, Health, and Medicare Insurance, our agents are dedicated solely to Medicare related plans. We do not work for CMS or Medicare and we represent a variety of Medicare Insurance plan companies to ensure that you find the plan that is best for you!
