@@ -8,9 +8,12 @@ const Team = ({ gridItems }) => (
       <article className="tile is-vertical" key={item.name}>
         <p className="title">{item.name}</p>
         <p className="subtitle">
-        {item.jobs.map(job => (
-          <span key={job.title}>{job.title}<br/></span>
-        ))}
+          {item.jobs.map((job) => (
+            <span key={job.title}>
+              {job.title}
+              <br />
+            </span>
+          ))}
         </p>
         <figure className="image">
           <PreviewCompatibleImage imageInfo={item} />

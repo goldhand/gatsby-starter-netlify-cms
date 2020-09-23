@@ -3,48 +3,56 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import {ParallaxHero} from '../components/ParallaxHero'
-import Team from '../components/Team';
+import { ParallaxHero } from '../components/ParallaxHero'
+import Team from '../components/Team'
 
-export const AboutPageTemplate = ({ title, subtitle, description, image, content, team, contentComponent }) => {
+export const AboutPageTemplate = ({
+  title,
+  subtitle,
+  description,
+  image,
+  content,
+  team,
+  contentComponent,
+}) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
-    <ParallaxHero
-      heading={title}
-      subheading={subtitle}
-      image={image}
-      description={description}
-    />
-    <section className="section section--gradient styled-hr">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <PageContent className="content" content={content} />
+      <ParallaxHero
+        heading={title}
+        subheading={subtitle}
+        image={image}
+        description={description}
+      />
+      <section className="section section--gradient styled-hr">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section">
+                <PageContent className="content" content={content} />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="section section--gradient styled-hr">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section-head">
-              <h3 className="title has-text-weight-semibold is-size-2">
-                Meet Your Team
-              </h3>
-              <hr />
-            </div>
-            <div className="section">
-              <Team gridItems={team} />
+      </section>
+      <section className="section section--gradient styled-hr">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section-head">
+                <h3 className="title has-text-weight-semibold is-size-2">
+                  Meet Your Team
+                </h3>
+                <hr />
+              </div>
+              <div className="section">
+                <Team gridItems={team} />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
   )
 }

@@ -8,15 +8,15 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
   const team = entryTestimonials ? entryTeam.toJS() : []
 
   return (
-  <AboutPageTemplate
-    image={getAsset(data.image)}
-    title={entry.getIn(['data', 'title'])}
-    subtitle={entry.getIn(['data', 'subtitle'])}
-    content={widgetFor('body')}
-    team={team}
-  />
-)
-  }
+    <AboutPageTemplate
+      image={getAsset(data.image)}
+      title={entry.getIn(['data', 'title'])}
+      subtitle={entry.getIn(['data', 'subtitle'])}
+      content={widgetFor('body')}
+      team={team}
+    />
+  )
+}
 
 AboutPagePreview.propTypes = {
   entry: PropTypes.shape({

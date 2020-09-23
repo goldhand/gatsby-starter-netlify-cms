@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Form from '../components/Form'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import {ParallaxHero} from '../components/ParallaxHero'
+import { ParallaxHero } from '../components/ParallaxHero'
 
 export const IndexPageTemplate = ({
   image,
@@ -27,13 +27,13 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-                <div className="content">
-                  <div className="section-head">
-                    <h1 className="title">{mainpitch.title}</h1>
-                    <hr />
-                  </div>
-                </div>
+          <div className="content">
+            <div className="section-head">
+              <h1 className="title">{mainpitch.title}</h1>
+              <hr />
+            </div>
           </div>
+        </div>
       </div>
     </section>
     <div
@@ -45,23 +45,22 @@ export const IndexPageTemplate = ({
       }}
       className="contact-form is-inverse"
     >
-
-              <div className="columns">
-                <div className="column is-12">
-                  <div className="section-head">
-                    <h3 className="title has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <hr />
-                  </div>
-                  <p>{description}</p>
-                </div>
-              </div>
-        <div className="column is-10 is-offset-1">
-          <div className="content">
-            <Form />
+      <div className="columns">
+        <div className="column is-12">
+          <div className="section-head">
+            <h3 className="title has-text-weight-semibold is-size-2">
+              {heading}
+            </h3>
+            <hr />
           </div>
+          <p>{description}</p>
         </div>
+      </div>
+      <div className="column is-10 is-offset-1">
+        <div className="content">
+          <Form />
+        </div>
+      </div>
     </div>
   </div>
 )

@@ -1,30 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const ParallaxHero = ({
-  image,
-  heading,
-  subheading,
-  description,
-}) => (
+export const ParallaxHero = ({ image, heading, subheading, description }) => (
+  <div
+    className="full-width-image margin-top-0 parallax"
+    style={{
+      backgroundImage: `url(${
+        !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+      })`,
+      backgroundSize: 'cover',
+      height: '600px',
+    }}
+  >
     <div
-      className="full-width-image margin-top-0 parallax"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundSize: 'cover',
-        height: '600px',
-      }}
-    >
-    <div style={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         height: '100%',
         width: '100%',
         background: 'rgba(0,0,0,0.3)',
-    }}>
+      }}
+    >
       <div
         style={{
           display: 'flex',
@@ -56,10 +53,19 @@ export const ParallaxHero = ({
         >
           {subheading}
         </h3>
-        <p style={{maxWidth: '800px', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{description}</p>
+        <p
+          style={{
+            maxWidth: '800px',
+            color: 'white',
+            lineHeight: '1.5em',
+            padding: '1rem',
+          }}
+        >
+          {description}
+        </p>
       </div>
     </div>
-    </div>
+  </div>
 )
 
 ParallaxHero.propTypes = {
