@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Form from '../components/Form'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import {ParallaxHero} from '../components/ParallaxHero'
 
 export const IndexPageTemplate = ({
   image,
@@ -17,59 +18,12 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0 parallax"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundSize: 'cover',
-        height: '600px',
-      }}
-    >
-    <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100%',
-        width: '100%',
-        background: 'rgba(0,0,0,0.3)',
-    }}>
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'center',
-          flexDirection: 'column',
-          textAlign: 'center',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            color: 'white',
-            lineHeight: '1.25em',
-            padding: '0.25em 1rem',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            color: 'white',
-            lineHeight: '1.25em',
-            padding: '0.25em 1rem',
-          }}
-        >
-          {subheading}
-        </h3>
-        <p style={{maxWidth: '800px', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{mainpitch.description}</p>
-      </div>
-    </div>
-    </div>
+    <ParallaxHero
+      heading={title}
+      subheading={subheading}
+      image={image}
+      description={description}
+    />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

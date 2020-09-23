@@ -3,30 +3,39 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import {ParallaxHero} from '../components/ParallaxHero'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, subtitle, description, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <div>
+    <ParallaxHero
+      heading={title}
+      subheading={subtitle}
+      image={image}
+      description={description}
+    />
+    <section className="section section--gradient styled-hr">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
               <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -39,6 +48,9 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
         content={post.html}
       />
     </Layout>
@@ -57,6 +69,15 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
+        description
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
