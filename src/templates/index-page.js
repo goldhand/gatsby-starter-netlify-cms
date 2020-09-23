@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Form from '../components/Form'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
@@ -26,14 +27,14 @@ export const IndexPageTemplate = ({
         height: '600px',
       }}
     >
-<div style={{
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100%',
-    width: '100%',
-    background: 'rgba(0,0,0,0.3)',
-}}>
+    <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+        width: '100%',
+        background: 'rgba(0,0,0,0.3)',
+    }}>
       <div
         style={{
           display: 'flex',
@@ -67,50 +68,71 @@ export const IndexPageTemplate = ({
         </h3>
         <p style={{maxWidth: '800px', color: 'white', lineHeight: '1.5em', padding: '1rem'}}>{mainpitch.description}</p>
       </div>
-</div>
+    </div>
     </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title" style={{textAlign: 'center'}}>{mainpitch.title}</h1>
+                  <div className="section-head">
+                    <h1 className="title">{mainpitch.title}</h1>
+                    <hr />
                   </div>
                 </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+          </div>
+      </div>
+    </section>
+    <div
+      style={{
+        backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
+        backgroundSize: 'cover',
+      }}
+      className="contact-form is-inverse"
+    >
+
+              <div className="columns">
+                <div className="column is-12">
+                  <div className="section-head">
+                    <h3 className="title has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    <p>{description}</p>
+                    <hr />
                   </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
+                  <p>{description}</p>
                 </div>
               </div>
-            </div>
+        <div className="column is-10 is-offset-1">
+          <div className="content">
+            <Form />
           </div>
         </div>
+    </div>
+    <section className="section has-background-black has-text-white-ter has-text-centered">
+      <div className="container">
+        <div className="section">
+                <div className="content">
+                  <div className="section-head">
+                    <h1 className="title has-text-white-ter">{mainpitch.title}</h1>
+                    <hr />
+                  </div>
+                  <div className="columns">
+                    <div className="column">
+                  <a className="contact-info has-text-primary" href="tel:5202227997">
+                    <span className="icon"><i className="fas fa-mobile"></i></span>
+                    (520) 222-7997
+                  </a>
+                  </div>
+                    <div className="column">
+                  <a className="contact-info has-text-primary" href="https://web.archive.org/web/20200220012047/mailto:info@azmedicarehelpers.com">
+                    <span className="icon"><i className="fas fa-envelope-o"></i></span>
+                    info@azmedicarehelpers.com
+                  </a>
+                  </div>
+                  </div>
+                </div>
+          </div>
       </div>
     </section>
   </div>
