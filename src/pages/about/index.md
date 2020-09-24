@@ -7,7 +7,7 @@ description: " "
 image: /img/sonoran-sunset.jpg
 team:
   - name: Trevor A. Cameron
-    image: /img/coffee.png
+    image: /img/trevor-cameron-head-shot.png
     jobs:
       - title: Broker/Owner
   - name: Fernando J. Diaz
