@@ -10,7 +10,6 @@ team:
     image: /img/coffee.png
     jobs:
       - title: Broker/Owner
-      - title: Investment Advisor Representative
   - name: Fernando J. Diaz
     image: /img/will-book-signing-300x300.png
     jobs:
