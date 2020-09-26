@@ -1,64 +1,47 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const ParallaxHero = ({ image, heading, subheading, description }) => (
+export const ParallaxHero = ({
+  image,
+  heading,
+  subheading,
+  description,
+  height = '600px',
+  backgroundPosition = 'top',
+}) => (
   <div
     className="full-width-image margin-top-0 parallax"
     style={{
       backgroundImage: `url(${
         !!image.childImageSharp ? image.childImageSharp.fluid.src : image
       })`,
-      backgroundSize: 'cover',
-      height: '600px',
+      backgroundPosition,
+      height,
     }}
   >
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100%',
-        width: '100%',
-        background: 'rgba(0,0,0,0.3)',
-      }}
-    >
+    <div className="image-overlay">
       <div
         style={{
           display: 'flex',
           height: '150px',
-          lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'center',
           flexDirection: 'column',
           textAlign: 'center',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            color: 'white',
-            lineHeight: '1.25em',
-            padding: '0.25em 1rem',
-          }}
-        >
+        <h1 className="title has-text-weight-bold has-text-white-ter is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
           {heading}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            color: 'white',
-            lineHeight: '1.25em',
-            padding: '0.25em 1rem',
-          }}
-        >
+        <h3 className="title has-text-weight-bold has-text-white-ter is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
           {subheading}
         </h3>
         <p
+          className="has-text-white-ter"
           style={{
             maxWidth: '800px',
-            color: 'white',
             lineHeight: '1.5em',
-            padding: '1rem',
+            padding: '0 1rem',
           }}
         >
           {description}
@@ -73,4 +56,5 @@ ParallaxHero.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   description: PropTypes.string,
+  height: PropTypes.string,
 }

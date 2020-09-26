@@ -21,9 +21,9 @@ const Footer = class extends React.Component {
                   <hr />
                 </div>
                 <div className="columns">
-                  <div className="column">
+                  <div className="column is-offset-1 is-5">
                     <a
-                      className="contact-info has-text-primary"
+                      className="contact-info has-text-primary is-size-4-desktop"
                       href="tel:5202227997"
                     >
                       <span className="icon">
@@ -32,9 +32,9 @@ const Footer = class extends React.Component {
                       (520) 222-7997
                     </a>
                   </div>
-                  <div className="column">
+                  <div className="column is-5">
                     <a
-                      className="contact-info has-text-primary"
+                      className="contact-info has-text-primary is-size-4-desktop"
                       href="https://web.archive.org/web/20200220012047/mailto:info@azmedicarehelpers.com"
                     >
                       <span className="icon">

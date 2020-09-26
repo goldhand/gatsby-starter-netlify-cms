@@ -4,6 +4,11 @@
 $kaldi-red: #ab051f
 $kaldi-red-invert: #fff
 
+$family-sans-serif: 'Roboto', sans-serif;
+$family-title: 'EB Garamond', $family-sans-serif;
+
+$body-line-height: 1.8
+
 $primary: $kaldi-red
 $info: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -11,6 +16,7 @@ $body-color: #333
 $black: #0f2541
 $footer-background-color: #061a2e
 $footer-padding: 3rem 1.5rem
+
 
 @import "~bulma/sass/utilities/initial-variables"
 @import "~bulma/sass/utilities/functions"
@@ -25,6 +31,12 @@ select:invalid
 
 .full-width-image.parallax
   background-attachment: fixed !important
+  background-size: cover
+  background-position: top
+
+h1, h2, h3, h4, .title
+  font-family: $family-title
+  font-variant: small-caps
 
 .section-head .title
   text-align: center;
@@ -43,9 +55,13 @@ select:invalid
   background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(221,221,221,1) 25%,rgba(221,221,221,1) 75%,rgba(125,185,232,0) 100%); /* W3C */
 
 .section-head hr,
+.content hr,
 .styled-hr hr
   position: relative;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 .section-head hr:after,
+.content hr:after,
 .styled-hr hr:after
   content: "";
   display: block;
@@ -75,12 +91,34 @@ select:invalid
     .label
       color: $primary-invert
 
+.image-overlay
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100%
+  width: 100%
+  background: rgba(0,0,0,0.3)
 
 .navbar .navbar-menu
   box-shadow:none !important
 
 .navbar.is-transparent
   background: transparent;
+
+.grid
+  display: flex
+  flex-flow: row wrap
+  margin-left: -1rem;
+  margin-right: -1rem;
+  > *
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+.grid.col-3
+  > *
+    width: 33.3%;
+
 
 .content .taglist
   list-style: none

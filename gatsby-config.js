@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'AZ Medicare Helpers',
-    description:
-      'Providing Simple Answers to Your Medicare Questions',
+    description: 'Providing Simple Answers to Your Medicare Questions',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -66,9 +65,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto\:400,100,300,500,700,400italic,900,500italic`,
+          `Lora\:400,400italic`,
+          `EB+Garamond`,
+        ],
+        display: 'swap',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-        develop: true, // Activates purging in npm run develop
+        develop: false, // Activates purging in npm run develop
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins

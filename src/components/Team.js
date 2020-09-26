@@ -3,22 +3,24 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const Team = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="grid col-3">
     {gridItems.map((item) => (
-      <article className="tile is-vertical" key={item.name}>
-        <p className="title">{item.name}</p>
-        <p className="subtitle">
-          {item.jobs.map((job) => (
-            <span key={job.title}>
-              {job.title}
-              <br />
-            </span>
-          ))}
-        </p>
-        <figure className="image">
-          <PreviewCompatibleImage imageInfo={item} />
-        </figure>
-      </article>
+      <div key={item.name}>
+        <article className="tile is-vertical">
+          <p className="title">{item.name}</p>
+          <p className="subtitle">
+            {item.jobs.map((job) => (
+              <span key={job.title}>
+                {job.title}
+                <br />
+              </span>
+            ))}
+          </p>
+          <figure className="image">
+            <PreviewCompatibleImage imageInfo={item} />
+          </figure>
+        </article>
+      </div>
     ))}
   </div>
 )

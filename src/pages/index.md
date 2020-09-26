@@ -3,9 +3,19 @@ templateKey: index-page
 title: AZ MEDICARE HELPERS
 subtitle: Providing Simple Answers to Your Medicare Questions
 image: /img/sonoran-sunset.jpg
+contactimage: /img/office.jpg
 heading: "We help you choose the plan that best fits your needs"
 subheading: "Medicare Answers from Medicare Professionals"
 description: "At Arizona Medicare Helpers we understand that the complex nature of Medicare Insurance can feel confusing and even overwhelming at times. Often searching for answers to simple Medicare questions can create more frustration than it seems to be worth. That is why we have a dedicated team of professionals committed to helping you understand and feel confident in your Medicare decisions."
+testimonials:
+  - author: Elisabeth Kaurismäki
+    quote: >-
+      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+      the same thing I’ve been drinking every morning.
+  - author: Philipp Trommler
+    quote: >-
+      Kaldi is the place to go if you want the best quality coffee. I love their
+      stance on empowering farmers and transparency.
 mainpitch:
   title: ""
   description: ""
@@ -57,3 +67,5 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+# Foo Bar
+THis is content

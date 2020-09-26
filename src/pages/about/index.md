@@ -4,7 +4,7 @@ path: /about
 title: Get to Know Us Better
 subtitle: " "
 description: " "
-image: /img/sonoran-sunset.jpg
+image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
     image: /img/trevor-cameron-head-shot.png
@@ -31,13 +31,13 @@ team:
     jobs:
       - title: Broker
 ---
-### Who We Are
+## Who We Are
 
 Arizona Medicare Helpers is a group of professionals dedicated to helping people understand their Medicare options to make better Medicare choices. Unlike many agents who sell Auto, Home, Life, Health, and Medicare Insurance, our agents are dedicated solely to Medicare related plans. We do not work for CMS or Medicare and we represent a variety of Medicare Insurance plan companies to ensure that you find the plan that is best for you!
 
 - - -
 
-### What We Offer
+## What We Offer
 
 Our commitment to you is threefold:
 
