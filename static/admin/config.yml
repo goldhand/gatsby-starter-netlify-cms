@@ -96,6 +96,16 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/contact/thanks.md"
+        label: "Contact Thanks"
+        name: "contact/thanks"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "generic-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Sub Title", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: Image, name: image, widget: image}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
