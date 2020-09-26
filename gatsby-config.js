@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'AZ Medicare Helpers',
     description: 'Providing Simple Answers to Your Medicare Questions',
+    facebook: 'https://www.facebook.com/AZMH65/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -82,6 +83,12 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/about/`, `/contact/*`],
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
