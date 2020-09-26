@@ -64,15 +64,11 @@ export const EsPageTemplate = ({
       >
         <div className="image-overlay contact-form is-inverse">
           <div>
-            <div className="columns">
-              <div className="column is-12">
-                <div className="section-head">
-                  <h3 className="title has-text-weight-semibold is-size-2">
-                    {subheading}
-                  </h3>
-                  <hr />
-                </div>
-              </div>
+            <div className="section-head">
+              <h3 className="title has-text-weight-semibold is-size-2">
+                {subheading}
+              </h3>
+              <hr />
             </div>
             <div className="column is-10 is-offset-1">
               <div className="content">
