@@ -49,8 +49,8 @@ const Footer = class extends React.Component {
           </div>
         </section>
         <footer className="footer">
-          <nav class="navbar is-transparent" role="navigation">
-            <div class="navbar-menu">
+          <nav className="navbar is-transparent" role="navigation">
+            <div className="navbar-menu">
               <div className="navbar-start">
                 <div className="navbar-item has-text-white-ter">
                   <p className="copyright">

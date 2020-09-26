@@ -51,8 +51,8 @@ export default class Index extends React.Component {
             <input name="bot-field" onChange={this.handleChange} />
           </label>
         </div>
-        <div class="field is-horizontal">
-          <div class="field-body">
+        <div className="field is-horizontal">
+          <div className="field-body">
             <div className="field">
               <label className="label is-hidden" htmlFor={'first-name'}>
                 First Name
@@ -119,8 +119,8 @@ export default class Index extends React.Component {
             />
           </div>
         </div>
-        <div class="field is-horizontal">
-          <div class="field-body">
+        <div className="field is-horizontal">
+          <div className="field-body">
             <div className="field">
               <label className="label" htmlFor={'learn'}>
                 Contact Me About...
@@ -132,8 +132,9 @@ export default class Index extends React.Component {
                     name={'learn'}
                     onChange={this.handleChange}
                     id={'learn'}
+                    defaultValue=""
                   >
-                    <option value="" disabled selected hidden>
+                    <option value="" disabled hidden>
                       Select Option
                     </option>
                     <option value="Medicare Advantage Plans">
@@ -160,8 +161,9 @@ export default class Index extends React.Component {
                     name={'topic'}
                     onChange={this.handleChange}
                     id={'topic'}
+                    defaultValue=""
                   >
-                    <option value="" disabled selected hidden>
+                    <option value="" disabled hidden>
                       Select Option
                     </option>
                     <option value="Additional No Cost Benefits">

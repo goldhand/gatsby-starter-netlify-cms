@@ -10,7 +10,7 @@ import Testimonials from '../components/Testimonials'
 import BlogRoll from '../components/BlogRoll'
 import { ParallaxHero } from '../components/ParallaxHero'
 
-export const IndexPageTemplate = ({
+export const EsPageTemplate = ({
   image,
   title,
   subtitle,
@@ -86,7 +86,7 @@ export const IndexPageTemplate = ({
   )
 }
 
-IndexPageTemplate.propTypes = {
+EsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   contactimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
@@ -102,12 +102,12 @@ IndexPageTemplate.propTypes = {
   content: PropTypes.string,
 }
 
-const IndexPage = ({ data }) => {
+const EsPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <IndexPageTemplate
+      <EsPageTemplate
         image={frontmatter.image}
         contactimage={frontmatter.contactimage}
         title={frontmatter.title}
@@ -125,7 +125,7 @@ const IndexPage = ({ data }) => {
   )
 }
 
-IndexPage.propTypes = {
+EsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -133,11 +133,11 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default EsPage
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+  query EsPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "es-page" } }) {
       html
       frontmatter {
         testimonials {
@@ -162,25 +162,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

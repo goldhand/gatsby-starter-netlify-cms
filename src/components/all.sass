@@ -110,14 +110,14 @@ h1, h2, h3, h4, .title
   flex-flow: row wrap
   margin-left: -1rem;
   margin-right: -1rem;
+  justify-content: center;
+  align-items: center;
   > *
     padding-left: 1rem;
     padding-right: 1rem;
-
-
-.grid.col-3
-  > *
-    width: 33.3%;
+  &.col-3
+    > *
+      width: 33.3%;
 
 
 .content .taglist
@@ -238,6 +238,9 @@ $menu-label-color: $white-ter
     flex-basis: 50%;
   .full-width-image.parallax
     background-attachment: scroll !important
+  .grid.col-3
+    > *
+      width: 50%
 +mobile
   .blog-list-item header
     display: block
@@ -247,3 +250,10 @@ $menu-label-color: $white-ter
     margin: 0 0 1em;
   .full-width-image.parallax
     background-attachment: scroll !important
+  .grid
+    margin: 0
+  .grid.col-3
+    > *
+      width: 100%
+      padding-left: 0
+      padding-right: 0

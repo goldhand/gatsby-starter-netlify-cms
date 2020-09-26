@@ -15,11 +15,11 @@ export const ContactPageTemplate = (props = {}) => {
         <div>
           <div className="column is-10 is-offset-1">
             <div className="content">
-            {props.heading && (
-              <div className="section-head">
-                <h1 className="title">{props.heading}</h1>
-                <hr />
-              </div>
+              {props.heading && (
+                <div className="section-head">
+                  <h1 className="title">{props.heading}</h1>
+                  <hr />
+                </div>
               )}
               <Form />
             </div>

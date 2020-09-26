@@ -41,7 +41,6 @@ export const ParallaxHero = ({
           style={{
             maxWidth: '800px',
             lineHeight: '1.5em',
-            padding: '0 1rem',
           }}
         >
           {description}
