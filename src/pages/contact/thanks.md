@@ -1,9 +1,9 @@
 ---
 templateKey: generic-page
 path: /contact/thanks
-title: Thank You
-subtitle: " "
-description: " "
+title: Thank you!
+subtitle: Medicare Information
+description: Your request has been submitted.
 image: /img/happy-senior-couple.jpg
 ---
-Thank you
+We appreciate your business, and someone from our agency will be reaching out to you in 24-48 business hours.  Have a great day!
