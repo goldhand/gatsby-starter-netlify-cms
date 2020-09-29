@@ -3,7 +3,7 @@ heading: "  "
 subheading: Medicare Answers from Medicare Professionals
 path: /es
 templateKey: es-page
-title: AZ MEDICARE HELPERS
+title: Arizona Medicare Helpers
 subtitle: Proporcionar respuestas simples a sus preguntas sobre Medicare
 image: /img/sonoran-sunset.jpg
 contactimage: /img/apple-touch-icon.png
