@@ -2,7 +2,7 @@
 templateKey: generic-page
 path: /contact/thanks
 title: Thank you!
-subtitle: "   "
+subtitle: _________________
 description: Your request has been submitted.
 image: /img/happy-senior-couple.jpg
 ---
