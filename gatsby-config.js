@@ -3,6 +3,10 @@ module.exports = {
     title: 'AZ Medicare Helpers',
     description: 'Providing Simple Answers to Your Medicare Questions',
     facebook: 'https://www.facebook.com/AZMH65/',
+    url: "https://www.azmedicarehelpers.com", // No trailing slash allowed!
+    siteUrl: "https://www.azmedicarehelpers.com", // No trailing slash allowed!
+    image: "/images/og-image.png", // Path to your image you placed in the 'static' folder
+    // twitterUsername: "@foo"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -70,7 +74,6 @@ module.exports = {
       options: {
         fonts: [
           `Roboto\:400,100,300,500,700,400italic,900,500italic`,
-          `Lora\:400,400italic`,
           `EB+Garamond`,
         ],
         display: 'swap',
@@ -84,9 +87,54 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/blog`, `/blog/*`, `/tags`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `AZ Medicare Helpers`,
+        short_name: `AZ Medicare`,
+        description: `Providing Simple Answers to Your Medicare Questions`,
+        lang: `en`,
+        display: `standalone`,
+        icon: `static/img/apple-touch-icon.png`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#ab051f`,
+        localize: [
+          {
+            start_url: `/es/`,
+            lang: `es`,
+            name: `Ayudantes de AZ Medicare`,
+            short_name: `AZ Medicare`,
+            description: `Proporcionar respuestas simples a sus preguntas sobre Medicare`,
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/about/`, `/contact/*`],
+        globDirectory: 'public',
+        globPatterns: ['*/**'],
+        cacheId: `gatsby-plugin-offline`,
+        skipWaiting: true,
+        clientsClaim: true,
+        directoryIndex: 'index.html',
+        runtimeCaching: [
+          {
+            urlPattern: /.*/,
+            handler: 'cacheFirst',
+            options: {
+              cacheableResponse: {
+                statuses: [0, 200]
+              },
+            }
+          },
+        ]
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
