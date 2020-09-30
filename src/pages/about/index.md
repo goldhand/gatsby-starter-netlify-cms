@@ -8,6 +8,7 @@ image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
     email: trevor@azmedicarehelpers.com
+    website: ""
     image: /img/trevor-1.png
     jobs:
       - title: Broker / Owner
@@ -16,26 +17,31 @@ team:
     jobs:
       - title: Broker / VP
     email: nicole@azmedicarehelpers.com
+    website: ""
   - name: Gary White
     image: /img/gary-white-head-shot.jpg
     jobs:
       - title: Broker
     email: gary@azmedicarehelpers.com
+    website: ""
   - name: Kyle Cooney
     image: /img/kyle-cooney-head-shot.jpg
     jobs:
       - title: Broker
     email: kyle@azmedicarehelpers.com
+    website: ""
   - name: Kari Brice Strack
     image: /img/kari-brice-strack-head-shot.jpg
     jobs:
       - title: Broker
     email: kari@azmedicarehelpers.com
+    website: ""
   - name: Jeanne Jameson
     image: /img/jeanne-jameson-head-shot.jpg
     jobs:
       - title: Broker
     email: jeanne@azmedicarehelpers.com
+    website: ""
 ---
 ## Who We Are
 

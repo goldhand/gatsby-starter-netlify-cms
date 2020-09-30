@@ -1,4 +1,4 @@
-site_url: "http://localhost:8000"
+site_url: "https://www.azmedicarehelpers.com"
 backend:
   name: git-gateway
   branch: master
@@ -50,8 +50,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string, required: false}
           - {label: SubTitle, name: subtitle, widget: string, required: false}
-          - {label: Image, name: image, widget: image, required: false}
-          - {label: ContactImage, name: contactimage, widget: image, required: false}
+          - {label: Image, name: image, widget: image}
+          - {label: ContactImage, name: contactimage, widget: image}
           - {label: Heading, name: heading, widget: string, required: false}
           - {label: Subheading, name: subheading, widget: string, required: false}
           - {label: Description, name: description, widget: string, required: false}
@@ -64,8 +64,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "es-page"}
           - {label: Title, name: title, widget: string, required: false}
           - {label: SubTitle, name: subtitle, widget: string, required: false}
-          - {label: Image, name: image, widget: image, required: false}
-          - {label: ContactImage, name: contactimage, widget: image, required: false}
+          - {label: Image, name: image, widget: image}
+          - {label: ContactImage, name: contactimage, widget: image}
           - {label: Heading, name: heading, widget: string, required: false}
           - {label: Subheading, name: subheading, widget: string, required: false}
           - {label: Description, name: description, widget: string, required: false}
@@ -81,7 +81,7 @@ collections:
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-          - {label: Team, name: team, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}, {label: Image, name: image, widget: image}, {label: jobs, name: jobs, widget: list, fields: [{label: "Job Title", name: title, widget: string}]}]}
+          - {label: Team, name: team, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string, required: false}, {label: Website, name: website, widget: string, required: false}, {label: Image, name: image, widget: image}, {label: jobs, name: jobs, widget: list, fields: [{label: "Job Title", name: title, widget: string}]}]}
       - file: "src/pages/contact/index.md"
         label: "Contact"
         name: "contact"

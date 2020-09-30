@@ -100,6 +100,7 @@ export const aboutPageQuery = graphql`
       frontmatter {
         team {
           email
+          website
           jobs {
             title
           }

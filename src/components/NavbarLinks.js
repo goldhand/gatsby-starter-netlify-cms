@@ -7,6 +7,9 @@ export const NavbarLinks = () => {
   const meta = useSiteMetadata()
   return (
     <React.Fragment>
+      <Link className="navbar-item" to="/">
+        Home
+      </Link>
       <Link className="navbar-item" to="/about/">
         About
       </Link>

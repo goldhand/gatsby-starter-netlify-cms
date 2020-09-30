@@ -15,9 +15,18 @@ const Team = ({ gridItems }) => (
                 <br />
               </span>
             ))}
-            <span>
-              {item.email && <a href={`mailto:${item.email}`}>Contact me</a>}
-            </span>
+            {item.email && item.email.trim() && (
+              <span className="team-email">
+                <a href={`mailto:${item.email}`}>Contact me</a>
+                <br />
+              </span>
+            )}
+            {item.website && item.website.trim() && (
+              <span className="team-email">
+                <a href={`${item.email}`} target="_blank" rel="noopener noreferrer">My website</a>
+                <br />
+              </span>
+            )}
           </p>
           <figure className="image circle-img team-img">
             <PreviewCompatibleImage imageInfo={item} />

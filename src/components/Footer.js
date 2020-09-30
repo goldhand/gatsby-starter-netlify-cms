@@ -32,7 +32,7 @@ const Footer = class extends React.Component {
                   <div className="column is-5">
                     <a
                       className="contact-info has-text-primary is-size-4-desktop"
-                      href="https://web.archive.org/web/20200220012047/mailto:info@azmedicarehelpers.com"
+                      href="mailto:info@azmedicarehelpers.com"
                     >
                       info@azmedicarehelpers.com
                     </a>
