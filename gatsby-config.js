@@ -3,9 +3,9 @@ module.exports = {
     title: 'AZ Medicare Helpers',
     description: 'Providing Simple Answers to Your Medicare Questions',
     facebook: 'https://www.facebook.com/AZMH65/',
-    url: "https://www.azmedicarehelpers.com", // No trailing slash allowed!
-    siteUrl: "https://www.azmedicarehelpers.com", // No trailing slash allowed!
-    image: "/images/og-image.png", // Path to your image you placed in the 'static' folder
+    url: 'https://www.azmedicarehelpers.com', // No trailing slash allowed!
+    siteUrl: 'https://www.azmedicarehelpers.com', // No trailing slash allowed!
+    image: '/images/og-image.png', // Path to your image you placed in the 'static' folder
     // twitterUsername: "@foo"
   },
   plugins: [
@@ -100,7 +100,7 @@ module.exports = {
         description: `Providing Simple Answers to Your Medicare Questions`,
         lang: `en`,
         display: `standalone`,
-        icon: `static/img/apple-touch-icon.png`,
+        icon: `static/img/logo-whitebg.png`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#ab051f`,
@@ -130,11 +130,11 @@ module.exports = {
             handler: 'cacheFirst',
             options: {
               cacheableResponse: {
-                statuses: [0, 200]
+                statuses: [0, 200],
               },
-            }
+            },
           },
-        ]
+        ],
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array

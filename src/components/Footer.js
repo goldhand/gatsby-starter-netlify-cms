@@ -9,7 +9,7 @@ import vimeo from '../img/social/vimeo.svg'
 import { NavbarLinks } from './NavbarLinks'
 
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const year = new Date().getFullYear()
   return (
     <React.Fragment>
       <section className="section has-background-black has-text-white-ter has-text-centered">
@@ -48,7 +48,8 @@ const Footer = () => {
             <div className="navbar-start">
               <div className="navbar-item has-text-white-ter">
                 <p className="copyright">
-                  {`Copyright © ${year}`} <a href="/">AZ Medicare Helpers</a>. All rights reserved.
+                  {`Copyright © ${year}`} <a href="/">AZ Medicare Helpers</a>.
+                  All rights reserved.
                 </p>
               </div>
             </div>

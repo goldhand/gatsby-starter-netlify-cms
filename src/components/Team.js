@@ -23,7 +23,13 @@ const Team = ({ gridItems }) => (
             )}
             {item.website && item.website.trim() && (
               <span className="team-email">
-                <a href={`${item.website.trim()}`} target="_blank" rel="noopener noreferrer">My website</a>
+                <a
+                  href={`${item.website.trim()}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  My website
+                </a>
                 <br />
               </span>
             )}

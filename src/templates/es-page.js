@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
-import Form from '../components/Form'
+import Form from '../components/FormEs'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import BlogRoll from '../components/BlogRoll'
@@ -41,11 +41,17 @@ export const EsPageTemplate = ({
                 <h1 className="title">{heading}</h1>
                 <hr />
               </div>
-              {content && <PageContent className="content" content={content} />}
               <div className="columns">
-                <div className="column is-8 is-offset-2">
-                  <Testimonials testimonials={testimonials} />
-                </div>
+                {content && (
+                  <div className="column is-8 is-offset-2">
+                    <PageContent className="content" content={content} />
+                  </div>
+                )}
+                {testimonials && (
+                  <div className="column is-8 is-offset-2">
+                    <Testimonials testimonials={testimonials} />
+                  </div>
+                )}
               </div>
             </div>
           </div>

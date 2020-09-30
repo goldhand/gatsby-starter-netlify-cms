@@ -60,7 +60,7 @@ export default class Index extends React.Component {
               <div className="control">
                 <input
                   className="input"
-                  placeholder={'First Name'}
+                  placeholder={'Nombre'}
                   type={'text'}
                   name={'first-name'}
                   onChange={this.handleChange}
@@ -76,7 +76,7 @@ export default class Index extends React.Component {
               <div className="control">
                 <input
                   className="input"
-                  placeholder="Last Name"
+                  placeholder="Apellido"
                   type={'text'}
                   name={'last-name'}
                   onChange={this.handleChange}
@@ -94,7 +94,7 @@ export default class Index extends React.Component {
           <div className="control">
             <input
               className="input"
-              placeholder="Phone Number"
+              placeholder="Numero de telefono"
               type={'tel'}
               name={'phone'}
               onChange={this.handleChange}
@@ -110,7 +110,7 @@ export default class Index extends React.Component {
           <div className="control">
             <input
               className="input"
-              placeholder="Email Address"
+              placeholder="Correo electrónico"
               type={'email'}
               name={'email'}
               onChange={this.handleChange}
@@ -123,7 +123,7 @@ export default class Index extends React.Component {
           <div className="field-body">
             <div className="field">
               <label className="label" htmlFor={'learn'}>
-                Contact Me About...
+                Necesito ayudo con...
               </label>
               <div className="control">
                 <div className="select is-fullwidth">
@@ -135,7 +135,7 @@ export default class Index extends React.Component {
                     defaultValue=""
                   >
                     <option value="" disabled hidden>
-                      Select Option
+                      Seleccionar opció
                     </option>
                     <option value="Medicare Advantage Plans">
                       Medicare Advantage Plans
@@ -152,7 +152,7 @@ export default class Index extends React.Component {
             </div>
             <div className="field">
               <label className="label" htmlFor={'topic'}>
-                Additional interests...
+                Mas informacion sobre...
               </label>
               <div className="control">
                 <div className="select is-fullwidth">
@@ -164,7 +164,7 @@ export default class Index extends React.Component {
                     defaultValue=""
                   >
                     <option value="" disabled hidden>
-                      Select Option
+                      Seleccionar opció
                     </option>
                     <option value="Additional No Cost Benefits">
                       Additional No Cost Benefits
@@ -192,7 +192,7 @@ export default class Index extends React.Component {
           </label>
           <div className="control">
             <textarea
-              placeholder="Send us a message..."
+              placeholder="Mandanos un mensaje..."
               className="textarea"
               name={'message'}
               onChange={this.handleChange}
@@ -204,7 +204,7 @@ export default class Index extends React.Component {
         <p className="disclaimer">
           <em>
             {
-              '*As a result of completing this form, a sales agent may mail, call or email you to discuss Medicare Advantage, Prescription Drug Plans or Medicare Supplement Insurance.'
+              '*Como resultado de completar este formulario, un agente de ventas puede enviarlo por correo, llamarlo o enviarle un correo electrónico para hablar sobre Medicare Advantage, los planes de medicamentos recetados o el seguro complementario de Medicare.'
             }
           </em>
         </p>
