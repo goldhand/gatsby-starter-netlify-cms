@@ -1,6 +1,6 @@
 ---
 heading: "  "
-subheading: Medicare Answers from Medicare Professionals
+subheading: Respuestas de Profesionales de Medicare
 path: /es
 templateKey: es-page
 title: Arizona Medicare Helpers
