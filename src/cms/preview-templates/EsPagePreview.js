@@ -1,29 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import { EsPageTemplate } from '../../templates/es-page'
 
-const IndexPagePreview = ({ entry, getAsset, widgetFor }) => {
+const EsPagePreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   if (data) {
     const props = {
       ...data,
       image: getAsset(data.image),
       contactimage: getAsset(data.contactimage),
-      testimonials: data.testimonials || [],
       content: widgetFor('body'),
+      testimonials: data.testimonials || [],
     }
-    return <IndexPageTemplate {...props} />
+    return <EsPageTemplate {...props} />
   } else {
     return <div>Loading...</div>
   }
 }
 
-IndexPagePreview.propTypes = {
+EsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-  widgetFor: PropTypes.func,
 }
 
-export default IndexPagePreview
+export default EsPagePreview

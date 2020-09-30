@@ -26,9 +26,6 @@ const Footer = class extends React.Component {
                       className="contact-info has-text-primary is-size-4-desktop"
                       href="tel:5202227997"
                     >
-                      <span className="icon">
-                        <i className="fas fa-mobile"></i>
-                      </span>
                       (520) 222-7997
                     </a>
                   </div>
@@ -37,9 +34,6 @@ const Footer = class extends React.Component {
                       className="contact-info has-text-primary is-size-4-desktop"
                       href="https://web.archive.org/web/20200220012047/mailto:info@azmedicarehelpers.com"
                     >
-                      <span className="icon">
-                        <i className="fas fa-envelope-o"></i>
-                      </span>
                       info@azmedicarehelpers.com
                     </a>
                   </div>
@@ -54,7 +48,7 @@ const Footer = class extends React.Component {
               <div className="navbar-start">
                 <div className="navbar-item has-text-white-ter">
                   <p className="copyright">
-                    Copyright © 2014 <a href="/">AZ Medicare Helpers</a>. All
+                    Copyright © 2021 <a href="/">AZ Medicare Helpers</a>. All
                     rights reserved.
                   </p>
                 </div>

@@ -61,8 +61,8 @@ export const AboutPageTemplate = ({
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
+  description: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -99,6 +99,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         team {
+          email
           jobs {
             title
           }

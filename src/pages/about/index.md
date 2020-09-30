@@ -7,6 +7,7 @@ description: " "
 image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
+    email: trevor@azmedicarehelpers.com
     image: /img/trevor-cameron-head-shot.png
     jobs:
       - title: Broker / Owner

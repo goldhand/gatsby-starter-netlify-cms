@@ -6,7 +6,7 @@ const Team = ({ gridItems }) => (
   <div className="grid col-3">
     {gridItems.map((item) => (
       <div key={item.name}>
-        <article className="tile is-vertical">
+        <article className="tile is-vertical team-tile">
           <p className="title">{item.name}</p>
           <p className="subtitle">
             {item.jobs.map((job) => (
@@ -15,8 +15,11 @@ const Team = ({ gridItems }) => (
                 <br />
               </span>
             ))}
+            <span>
+              {item.email && <a href={`mailto:${item.email}`}>Contact me</a>}
+            </span>
           </p>
-          <figure className="image">
+          <figure className="image circle-img team-img">
             <PreviewCompatibleImage imageInfo={item} />
           </figure>
         </article>
