@@ -17,13 +17,13 @@ const Team = ({ gridItems }) => (
             ))}
             {item.email && item.email.trim() && (
               <span className="team-email">
-                <a href={`mailto:${item.email}`}>Contact me</a>
+                <a href={`mailto:${item.email.trim()}`}>Contact me</a>
                 <br />
               </span>
             )}
             {item.website && item.website.trim() && (
               <span className="team-email">
-                <a href={`${item.email}`} target="_blank" rel="noopener noreferrer">My website</a>
+                <a href={`${item.website.trim()}`} target="_blank" rel="noopener noreferrer">My website</a>
                 <br />
               </span>
             )}
