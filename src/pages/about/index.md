@@ -8,11 +8,11 @@ image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
     email: trevor@azmedicarehelpers.com
-    image: /img/trevor-cameron-head-shot.png
+    image: /img/trevor-1.png
     jobs:
       - title: Broker / Owner
   - name: Nicole Romero
-    image: /img/img_5768.jpg
+    image: /img/nicole-1.png
     jobs:
       - title: Broker / VP
   - name: Gary White
