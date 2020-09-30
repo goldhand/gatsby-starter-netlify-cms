@@ -15,22 +15,27 @@ team:
     image: /img/nicole-1.png
     jobs:
       - title: Broker / VP
+    email: nicole@azmedicarehelpers.com
   - name: Gary White
     image: /img/gary-white-head-shot.jpg
     jobs:
       - title: Broker
+    email: gary@azmedicarehelpers.com
   - name: Kyle Cooney
     image: /img/kyle-cooney-head-shot.jpg
     jobs:
       - title: Broker
+    email: kyle@azmedicarehelpers.com
   - name: Kari Brice Strack
     image: /img/kari-brice-strack-head-shot.jpg
     jobs:
       - title: Broker
+    email: kari@azmedicarehelpers.com
   - name: Jeanne Jameson
     image: /img/jeanne-jameson-head-shot.jpg
     jobs:
       - title: Broker
+    email: jeanne@azmedicarehelpers.com
 ---
 ## Who We Are
 
