@@ -24,9 +24,9 @@ const Footer = () => {
                 <div className="column is-offset-1 is-5">
                   <a
                     className="contact-info has-text-primary is-size-4-desktop"
-                    href="tel:5202227997"
+                    href="tel:5202229442"
                   >
-                    (520) 222-7997
+                    (520) 222-9442
                   </a>
                 </div>
                 <div className="column is-5">
