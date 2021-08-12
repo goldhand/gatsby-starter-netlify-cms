@@ -8,8 +8,8 @@ image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
     email: trevor@azmedicarehelpers.com
-    website: https://medicareinsurancedirect-ipc.destinationrx.com/PlanCompare/2020/Consumer/Type3/Compare/Home?agent=EAAAACJejNqMN89fQF7Yjo%2FW%2BMGpssXJDMfNfd0xFlWNxU0wURhziUgRBYNYghJo%2FUYHiL0vlpbxoeax%2BvAG1s%2BAruQ%3D&utm_source=Client147%3AMedicare%20Insurance%20Direct&utm_medium=email&utm_campaign=Consumer%3Abroker%20personalized%20url%20link&utm_term=click%3A%7Bbroker%20personalized%20url%20link%7D&utm_content=PlanType%3An%2Fa%7CPeriod%3An%2Fa%7CEnrollmentID%3An%2Fa&utm_id=Created%3A2019-10-15%2022%3A38%3A15Z%7CBroker_EAAAACJejNqMN89fQF7Yjo%252FW%252BMGpssXJDMfNfd0xFlWNxU0wURhziUgRBYNYghJo%252FUYHiL0vlpbxoeax%252BvAG1s%252BAruQ%253D
-    image: /img/trevor-1.png
+    website: ""
+    image: /img/trevor-cameron_revised.jpg
     jobs:
       - title: Broker / Owner
   - name: Nicole Romero
