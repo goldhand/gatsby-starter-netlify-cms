@@ -9,7 +9,7 @@ team:
   - name: Trevor A. Cameron
     email: trevor@azmedicarehelpers.com
     website: ""
-    image: /img/trevor-cameron_revised.jpg
+    image: /img/trevor-cameron_revised-2-.jpg
     jobs:
       - title: Broker / Owner
   - name: Nicole Romero
