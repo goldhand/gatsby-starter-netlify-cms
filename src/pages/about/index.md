@@ -42,6 +42,9 @@ team:
       - title: Broker
     email: jeanne@azmedicarehelpers.com
     website: ""
+  - name: Sue Harrison
+    email: susan@azmedicarehelpers.com
+    image: /img/sue-harrison-head-shot.jpg
 ---
 ## Who We Are
 
