@@ -119,6 +119,22 @@ export default class Index extends React.Component {
             />
           </div>
         </div>
+        <div className="field">
+          <label className="label is-hidden" htmlFor={'referred'}>
+            Referred By
+          </label>
+          <div className="control">
+            <input
+              className="input"
+              placeholder="Referred By"
+              type={'text'}
+              name={'referred'}
+              onChange={this.handleChange}
+              id={'referred'}
+              required={false}
+            />
+          </div>
+        </div>
         <div className="field is-horizontal">
           <div className="field-body">
             <div className="field">
