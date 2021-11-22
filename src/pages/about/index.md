@@ -7,7 +7,7 @@ description: " "
 image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
-    email: trevor@azmedicarehelpers.com
+    email: https://www.azmedicarehelpers.com/contact/
     website: https://medicareinsurancedirect6.destinationrx.com/PC/2022/u/VFJFVk9SQEFaTUVESUNBUkVIRUxQRVJTLkNPTQ
     image: /img/trevor-cameron_revised-2-.jpg
     jobs:
