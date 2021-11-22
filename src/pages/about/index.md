@@ -44,7 +44,7 @@ team:
     website: ""
   - name: Sue Harrison
     email: susan@azmedicarehelpers.com
-    image: /img/sue-harrison-head-shot.jpg
+    image: /img/sue-harrison-head-shot-square.jpg
     jobs:
       - title: Broker
 ---
