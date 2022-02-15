@@ -47,6 +47,9 @@ team:
     image: /img/sue-harrison-head-shot-square.jpg
     jobs:
       - title: Broker
+  - name: Angelica Gerardo
+    email: angelica@azmedicarehelpers.com
+    image: /img/brenda-gerardo-head-shot.jpeg
 ---
 ## Who We Are
 
