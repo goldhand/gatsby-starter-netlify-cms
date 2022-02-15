@@ -9,7 +9,9 @@ function encode(data) {
 }
 
 function createQueryMap() {
-  const search = window.location.search;
+  const search = !!global.location
+    ? global.location.search
+    : '';
   const params = new URLSearchParams(search);
   return (key) => {
     if (params.has(key)) {
