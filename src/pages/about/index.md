@@ -12,7 +12,7 @@ team:
     image: /img/trevor-cameron_revised-2-.jpg
     jobs:
       - title: Broker / Owner
-  - name: Nicole Romero
+  - name: Nicole Budd
     image: /img/nicole-1.png
     jobs:
       - title: Broker / VP
