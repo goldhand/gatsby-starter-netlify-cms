@@ -1,12 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import {Link} from 'gatsby'
 
 const Team = ({ gridItems }) => (
   <div className="grid col-3">
     {gridItems.map((item) => (
       <div key={item.name}>
         <article className="tile is-vertical team-tile">
+          <figure className="image circle-img team-img">
+            <PreviewCompatibleImage imageInfo={item} />
+          </figure>
           <p className="title">{item.name}</p>
           <p className="subtitle">
             {item.jobs.map((job) => (
@@ -17,7 +21,7 @@ const Team = ({ gridItems }) => (
             ))}
             {item.email && item.email.trim() && (
               <span className="team-email">
-                <a href={`mailto:${item.email.trim()}`}>Contact me</a>
+                <Link to={`/contact/?agentEmail=${item.email.trim()}&agentName=${item.name}`}>Contact me</Link>
                 <br />
               </span>
             )}
@@ -34,9 +38,6 @@ const Team = ({ gridItems }) => (
               </span>
             )}
           </p>
-          <figure className="image circle-img team-img">
-            <PreviewCompatibleImage imageInfo={item} />
-          </figure>
         </article>
       </div>
     ))}
