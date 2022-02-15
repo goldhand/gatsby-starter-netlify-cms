@@ -27,16 +27,10 @@ export default class Index extends React.Component {
     const queryMap = createQueryMap();
     const agentName = queryMap('agentName');
     const agentEmail = queryMap('agentEmail');
-    if (agentName || agentEmail) {
-      this.state = {
-        isValidated: false,
-        'agent-name': agentName,
-        'agent-email': agentEmail,
-      }
-    } else {
-      this.state = {
-        isValidated: false,
-      }
+    this.state = {
+      isValidated: false,
+      'agent-name': agentName,
+      'agent-email': agentEmail,
     }
   }
 
@@ -83,6 +77,8 @@ export default class Index extends React.Component {
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="agent-name" id="agent-name" value={this.state['agent-name']} />
+          <input type="hidden" name="agent-email" id="agent-email" value={this.state['agent-email']} />
           <div hidden>
             <label>
               Don’t fill this out:{' '}
@@ -169,7 +165,7 @@ export default class Index extends React.Component {
                 name={'referred'}
                 onChange={this.handleChange}
                 id={'referred'}
-                required={false}
+                required={true}
               />
             </div>
           </div>
