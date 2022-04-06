@@ -49,7 +49,7 @@ team:
       - title: Broker
   - name: Angelica Gerardo
     email: angelica@azmedicarehelpers.com
-    image: /img/angelica-gerardo.jpg
+    image: /img/angie-head-shot-square.jpg
     jobs:
       - title: Broker
   - name: Brenda Gerardo
