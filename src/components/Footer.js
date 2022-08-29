@@ -58,6 +58,10 @@ const Footer = () => {
             </div>
           </div>
         </nav>
+        <div class="has-text-white-ter footer-disclaimer">
+          <p>This is a solicitation for insurance. Submitting information or calling numbers listed on this website will direct you to a licensed Agent/Broker.</p>
+          <p>Important disclosures about Medicare Plans: Medicare has neither endorsed nor reviewed this information. Not connected or affiliated with any United States Government or State agency. We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options.</p>
+        </div>
       </footer>
     </React.Fragment>
   )
