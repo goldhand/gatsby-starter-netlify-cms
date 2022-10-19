@@ -8,7 +8,7 @@ image: /img/grand-canyon.jpg
 team:
   - name: Trevor A. Cameron
     email: trevor@azmedicarehelpers.com
-    website: https://medicareinsurancedirect6.destinationrx.com/PC/2022/u/VFJFVk9SQEFaTUVESUNBUkVIRUxQRVJTLkNPTQ
+    website: https://www.trevorcameron.net
     image: /img/trevor-cameron_revised-2-.jpg
     jobs:
       - title: Broker / Owner
