@@ -11,30 +11,39 @@ team:
     website: https://www.trevorcameron.net
     image: /img/trevor-cameron_revised-2-.jpg
     jobs:
-      - title: Broker / Owner
+      - title: Agency Owner
+      - title: Senior Broker
   - name: Nicole Budd
     image: /img/nicole-1.png
     jobs:
-      - title: Broker / VP
+      - title: VP of Operations
+      - title: Senior Broker
     email: nicole@azmedicarehelpers.com
     website: ""
   - name: Gary White
     image: /img/gary-white-head-shot.jpg
     jobs:
-      - title: Broker
+      - title: Senior Broker
     email: gary@azmedicarehelpers.com
     website: ""
+  - name: Brenda Gerardo
+    email: brenda@azmedicarehelpers.com
+    image: /img/brenda-gerardo-google-square.jpeg
+    jobs:
+      - title: Office Manager
+      - title: Se Hablo Espanol
+  - name: Mariyah Hayden
+    email: mariyah@azmedicarehelpers.com
+    image: /img/mariyah-hayden-head-shot.jpg
+    jobs:
+      - title: VP of Operations Admin
+      - title: Broker
   - name: Kyle Cooney
     image: /img/kyle-cooney-head-shot.jpg
     jobs:
-      - title: Broker
+      - title: Broker - Local Pinal County
+      - title: AHCCCS Information
     email: kyle@azmedicarehelpers.com
-    website: ""
-  - name: Kari Brice Strack
-    image: /img/kari-brice-strack-head-shot.jpg
-    jobs:
-      - title: Broker
-    email: kari@azmedicarehelpers.com
     website: ""
   - name: Jeanne Jameson
     image: /img/jeanne-jameson-head-shot.jpg
@@ -42,46 +51,43 @@ team:
       - title: Broker
     email: jeanne@azmedicarehelpers.com
     website: ""
-  - name: Sue Harrison
-    email: susan@azmedicarehelpers.com
-    image: /img/sue-harrison-head-shot-square.jpg
+  - name: Kyle Gannon
+    email: kgannon@azmedicarehelpers.com
+    image: /img/kyle-gannon.png
     jobs:
       - title: Broker
   - name: Angelica Gerardo
     email: angelica@azmedicarehelpers.com
     image: /img/angie-head-shot-square.jpg
     jobs:
-      - title: Broker
-  - name: Brenda Gerardo
-    email: brenda@azmedicarehelpers.com
-    image: /img/brenda-gerardo-google-square.jpeg
-    jobs:
-      - title: Office Manager
-  - name: Kyle Gannon
-    email: kgannon@azmedicarehelpers.com
-    image: /img/kyle-gannon.png
+      - title: Broker - Local Maricopa County
+      - title: Se Hablo Espanol
+  - name: Sue Harrison
+    email: susan@azmedicarehelpers.com
+    image: /img/sue-harrison-head-shot-square.jpg
     jobs:
       - title: Broker
-  - name: Mariyah Hayden
-    email: mariyah@azmedicarehelpers.com
-    image: /img/mariyah-hayden-head-shot.jpg
-    jobs:
-      - title: Broker & VP Admin
-  - name: Jim Howe III
-    email: jim@azmedicarehelpers.com
-    image: /img/jim-howe-iii-head-shot.jpg
-    jobs:
-      - title: Broker - Cochise County
-  - name: Rosa Hill
-    email: rosa@azmedicarehelpers.com
+  - name: Kari Brice Strack
+    image: /img/kari-brice-strack-head-shot.jpg
     jobs:
       - title: Broker
-    image: /img/rosa.jpg
+    email: kari@azmedicarehelpers.com
+    website: ""
   - name: Aniza Barcelo
     email: aniza@azmedicarehelpers.com
     jobs:
       - title: Broker
     image: /img/aniza.jpg
+  - name: Jim Howe III
+    email: jim@azmedicarehelpers.com
+    image: /img/jim-howe-iii-head-shot.jpg
+    jobs:
+      - title: Broker - Local Cochise County
+  - name: Rosa Hill
+    email: rosa@azmedicarehelpers.com
+    jobs:
+      - title: Broker
+    image: /img/rosa.jpg
 ---
 ## Who We Are
 
