@@ -31,7 +31,7 @@ team:
     image: /img/brenda-gerardo-google-square.jpeg
     jobs:
       - title: Office Manager
-      - title: Se Hablo Espanol
+      - title: Se Habla Espanol
   - name: Mariyah Hayden
     email: mariyah@azmedicarehelpers.com
     image: /img/mariyah-hayden-head-shot.jpg
@@ -61,7 +61,7 @@ team:
     image: /img/angie-head-shot-square.jpg
     jobs:
       - title: Broker - Local Maricopa County
-      - title: Se Hablo Espanol
+      - title: Se Habla Espanol
   - name: Sue Harrison
     email: susan@azmedicarehelpers.com
     image: /img/sue-harrison-head-shot-square.jpg
