@@ -57,6 +57,16 @@ team:
     image: /img/brenda-gerardo-google-square.jpeg
     jobs:
       - title: Office Manager
+  - name: Kyle Gannon
+    email: kgannon@azmedicarehelpers.com
+    image: /img/kyle-gannon.png
+    jobs:
+      - title: Broker
+  - name: Mariyah Hayden
+    email: mariyah@azmedicarehelpers.com
+    image: /img/mariyah-hayden-head-shot.jpg
+    jobs:
+      - title: Broker & VP Admin
 ---
 ## Who We Are
 
