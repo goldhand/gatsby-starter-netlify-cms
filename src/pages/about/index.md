@@ -67,6 +67,21 @@ team:
     image: /img/mariyah-hayden-head-shot.jpg
     jobs:
       - title: Broker & VP Admin
+  - name: Jim Howe III
+    email: jim@azmedicarehelpers.com
+    image: /img/jim-howe-iii-head-shot.jpg
+    jobs:
+      - title: Broker - Cochise County
+  - name: Rosa Hill
+    email: rosa@azmedicarehelpers.com
+    jobs:
+      - title: Broker
+    image: /img/rosa.jpg
+  - name: Aniza Barcelo
+    email: aniza@azmedicarehelpers.com
+    jobs:
+      - title: Broker
+    image: /img/aniza.jpg
 ---
 ## Who We Are
 
