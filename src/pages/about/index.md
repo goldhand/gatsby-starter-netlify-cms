@@ -53,7 +53,7 @@ team:
     website: ""
   - name: Kyle Gannon
     email: kgannon@azmedicarehelpers.com
-    image: /img/kyle-gannon.png
+    image: /img/unnamed.jpg
     jobs:
       - title: Broker
   - name: Angelica Gerardo
