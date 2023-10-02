@@ -92,29 +92,29 @@ module.exports = {
         exclude: [`/blog`, `/blog/*`, `/tags`],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `AZ Medicare Helpers`,
-        short_name: `AZ Medicare`,
-        description: `Providing Simple Answers to Your Medicare Questions`,
-        lang: `en`,
-        display: `standalone`,
-        icon: `static/img/logo-whitebg.png`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#ab051f`,
-        localize: [
-          {
-            start_url: `/es/`,
-            lang: `es`,
-            name: `Ayudantes de AZ Medicare`,
-            short_name: `AZ Medicare`,
-            description: `Proporcionar respuestas simples a sus preguntas sobre Medicare`,
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `AZ Medicare Helpers`,
+    //     short_name: `AZ Medicare`,
+    //     description: `Providing Simple Answers to Your Medicare Questions`,
+    //     lang: `en`,
+    //     display: `standalone`,
+    //     icon: `static/img/logo-whitebg.png`,
+    //     start_url: `/`,
+    //     background_color: `#fff`,
+    //     theme_color: `#ab051f`,
+    //     localize: [
+    //       {
+    //         start_url: `/es/`,
+    //         lang: `es`,
+    //         name: `Ayudantes de AZ Medicare`,
+    //         short_name: `AZ Medicare`,
+    //         description: `Proporcionar respuestas simples a sus preguntas sobre Medicare`,
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-offline`,
       options: {
