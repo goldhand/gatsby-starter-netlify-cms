@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </nav>
         <div class="has-text-white-ter footer-disclaimer">
-          <p style="font-size: 12pt;">
+          <p style={{fontSize: '12pt'}}>
 Not connected with or endorsed by the United States government or the federal Medicare program or any federal agency. Insurance solicitation. We do not offer every plan available in your area.  Currently we represent at least 10 organizations which offer at least 72 products in your area.  Please contact Medicare.gov, 1- 800 – MEDICARE, or your local State Health Insurance Program (SHIP) to get information on all your options. Plans are insured or covered by a Medicare Advantage (HMO, PPO and PFFS) organization with a Medicare contract and/or a Medicare-approved Part D sponsor. Enrollment in the plan depends on the plan’s contract renewal with Medicare. The insurance services described on this web site are provided by The Medicare Navigators, a GMIA, Inc. company.  GMIA, Inc. is contracted with and may receive compensation from the insurers listed on this website. For more information, please consult our Privacy Policy. Not all plans are available in all regions. This is a solicitation for insurance. Submitting information or calling numbers listed on this website will direct you to a licensed Agent/Broker. Important disclosures about Medicare Plans: Medicare has neither endorsed nor reviewed this information.
           </p>
         </div>
