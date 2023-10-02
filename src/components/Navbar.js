@@ -48,7 +48,6 @@ const Navbar = class extends React.Component {
               <img
                 src={logo}
                 alt="AZ Medicare Helpers"
-                style={{ width: '300px' }}
               />
             </Link>
             {/* Hamburger menu */}
