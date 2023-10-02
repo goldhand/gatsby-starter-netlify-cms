@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/az-medicare-helpers-logo.png'
-import logo from '../img/az-medicare-helpers-logo.png'
+// import github from '../img/az-medicare-helpers-logo.png'
+// import logo from '../img/az-medicare-helpers-logo.png'
+import github from '../img/TREVOR1az-medicare-helpers-LAND2.png'
+import logo from '../img/TREVOR1az-medicare-helpers-LAND2.png'
 import { NavbarLinks } from './NavbarLinks'
 
 const Navbar = class extends React.Component {
