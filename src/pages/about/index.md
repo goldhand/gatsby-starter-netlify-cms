@@ -77,17 +77,17 @@ team:
     email: aniza@azmedicarehelpers.com
     jobs:
       - title: Broker
-    image: /img/aniza.jpg
+    image: /img/aniza-square-head-shot.jpg
   - name: Jim Howe III
     email: jim@azmedicarehelpers.com
-    image: /img/jim-howe-iii-head-shot.jpg
+    image: /img/jim-howe-head-shot.jpg
     jobs:
       - title: Broker - Local Cochise County
   - name: Rosa Hill
     email: rosa@azmedicarehelpers.com
     jobs:
       - title: Broker
-    image: /img/rosa.jpg
+    image: /img/unnamed-1-.jpg
 ---
 ## Who We Are
 
