@@ -53,7 +53,7 @@ team:
     website: ""
   - name: Kyle Gannon
     email: kgannon@azmedicarehelpers.com
-    image: /img/unnamed.jpg
+    image: /img/coverprof.jpg
     jobs:
       - title: Broker
   - name: Angelica Gerardo
@@ -78,11 +78,6 @@ team:
     jobs:
       - title: Broker
     image: /img/aniza-square-head-shot.jpg
-  - name: Jim Howe III
-    email: jim@azmedicarehelpers.com
-    image: /img/jim-howe-head-shot.jpg
-    jobs:
-      - title: Broker - Local Cochise County
   - name: Rosa Hill
     email: rosa@azmedicarehelpers.com
     jobs:
