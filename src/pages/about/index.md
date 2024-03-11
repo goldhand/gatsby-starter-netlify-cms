@@ -34,7 +34,7 @@ team:
       - title: Se Habla Espanol
   - name: Mariyah Hayden
     email: mariyah@azmedicarehelpers.com
-    image: /img/mariyah-hayden-head-shot.jpg
+    image: /img/mariyah-hayden-square-head-shot.jpg
     jobs:
       - title: VP of Operations Admin
       - title: Broker
