@@ -36,7 +36,6 @@ team:
     email: mariyah@azmedicarehelpers.com
     image: /img/mariyah-hayden-square-head-shot.jpg
     jobs:
-      - title: VP of Operations Admin
       - title: Broker
   - name: Kyle Cooney
     image: /img/kyle-cooney-head-shot.jpg
